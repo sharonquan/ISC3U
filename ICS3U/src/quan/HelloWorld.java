@@ -8,7 +8,7 @@ package quan;
 public class HelloWorld { 
 	public static void main(String[] args) {
 		// This prints "Hello world" to the console
-		System.out.println("Hello World. I've reached my programming limits. c:");
+		System.out.println("Hello World. C: c:");
 	
 	}
 
