@@ -28,7 +28,6 @@ public class ArthmeticExpression {
 		int numPower; 
 		double numRoot; 
 		
-		
 		Scanner userInput = new Scanner(System.in);
 		
 		// taking numbers from the user assigning variable)

@@ -12,7 +12,7 @@ public class MotherAndKid {
 	public static void main(String[] args) {
 	/* 
     * 	Main Method
-	*/
+	*/	
 	Scanner userInput = new Scanner(System.in);
 	//*** Asking for the Name of user and mother
 	System.out.println("Please enter your mother's full name.");
