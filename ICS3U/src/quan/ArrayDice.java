@@ -16,7 +16,7 @@ public class ArrayDice {
 		 
 		 for (int i = 0; i <= 10000; i++)
 		 {
-			 //randonly generate the rolls for both die
+			 //randomly generate the rolls for both die
 			 int dice = (int)(Math.random() * 6 ) + 1; 
 			 int diceTwo = (int)(Math.random() * 6 ) + 1; 
 			 //add the total of the two die 
