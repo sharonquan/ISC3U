@@ -14,7 +14,7 @@ public class ArrayDice {
 		int [] times = new int[11]; //create array
 		
 		 
-		 for (int i = 0; i <= 10000; i++)
+		 for (int i  = 0; i < 10000; i++)
 		 {
 			 //randomly generate the rolls for both die
 			 int dice = (int)(Math.random() * 6 ) + 1; 
