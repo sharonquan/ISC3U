@@ -2,7 +2,7 @@ package quan;
 /*
  * Sharon Quan 
  * 10/05/2016
- * WordGuess 
+ * WordGuess.java
  * This program makes the user guess a colour 
  */
 import java.util.Scanner;
