@@ -50,7 +50,7 @@ public class TicTackToe {
 				if (!o)
 				{
 				// asking X player for coordinates
-				System.out.println("What are the coordinates you would like to place the X? (Example: 3, 1)");
+				System.out.println("What are the coordinates you would like to place the X? (Example: 3 1)");
 
 				row = input.nextInt();
 				column = input.nextInt();
@@ -69,42 +69,42 @@ public class TicTackToe {
 					System.out.println(board[2][0] + "\t" + board[2][1] + "\t" + board[2][2]);
 
 					// Checking for the winner
-					if (board[0][0] == board[0][1] && board[0][0] == board[0][2] && !board[0][2].equals("")) 
+					if (board[0][0].equals(board[1][0]) && board[1][0].equals(board[2][0]) && !board[2][0].equals("")) 
 					{
 						System.out.println(board[0][0] + " wins!"); 
 						win = true;
 					} 
-					else if (board[1][0] == board[1][1] && board[1][1] == board[1][2] && !board[1][2].equals("")) 
+					else if (board[1][0].equals(board[1][1]) && board[1][1].equals(board[1][2]) && !board[1][2].equals("")) 
 					{
 						System.out.println(board[1][0] + " wins!");
 						win = true;
 					} 
-					else if (board[2][0] == board[2][1] && board[2][0] == board[2][2] && !board[2][2].equals("")) 
+					else if (board[2][0].equals(board[2][1]) && board[2][0].equals(board[2][2]) && !board[2][2].equals("")) 
 					{
 						System.out.println(board[2][0] + " wins!");
 						win = true;
 					} 
-					else if (board[0][1] == board[1][1] && board[1][1] == board[2][1] && !board[2][1].equals("")) 
+					else if (board[0][1].equals(board[1][1]) && board[1][1].equals(board[2][1]) && !board[2][1].equals("")) 
 					{
 						System.out.println(board[0][1] + " wins!"); //CHANGED
 						win = true;
 					} 
-					else if (board[0][0] == board[0][1] && board[0][1] == board[0][2] && !board[0][2].equals("")) 
+					else if (board[0][0].equals(board[0][1]) && board[0][1].equals(board[0][2]) && !board[0][2].equals("")) 
 					{
 						System.out.println(board[0][0] + " wins!"); //CHECK
 						win = true;
 					} 
-					else if (board[0][2] == board[1][2] && board[1][2] == board[2][2] && !board[2][2].equals("")) 
+					else if (board[0][2].equals(board[1][2]) && board[1][2].equals(board[2][2]) && !board[2][2].equals("")) 
 					{
 						System.out.println(board[0][2] + " wins!"); //CHECK
 						win = true;
 					} 
-					else if (board[0][0] == board[1][1] && board[0][0] == board[2][2] && !board[2][2].equals("")) 
+					else if (board[0][0].equals(board[1][1]) && board[0][0].equals(board[2][2]) && !board[2][2].equals("")) 
 					{
 						System.out.println(board[2][2] + " wins!");
 						win = true;
 					} 
-					else if (board[0][2] == board[1][1] && board[0][2] == board[2][0] && !board[0][2].equals("")) 
+					else if (board[0][2].equals(board[1][1]) && board[0][2].equals(board[2][0]) && !board[0][2].equals("")) 
 					{
 						System.out.println(board[0][0] + " wins!");
 						win = true;
@@ -150,42 +150,42 @@ public class TicTackToe {
 						System.out.println(board[2][0] + "\t" + board[2][1] + "\t" + board[2][2]);
 
 						// Checking for the winner again
-						if (board[0][0] == board[0][1] && board[0][0] == board[0][2] && !board[0][2].equals("")) 
+						if (board[0][0].equals(board[1][0]) && board[1][0].equals(board[2][0]) && !board[2][0].equals("")) 
 						{
 							System.out.println(board[0][0] + " wins!"); 
 							win = true;
 						} 
-						else if (board[1][0] == board[1][1] && board[1][1] == board[1][2] && !board[1][2].equals("")) 
+						else if (board[1][0].equals(board[1][1]) && board[1][1].equals(board[1][2]) && !board[1][2].equals("")) 
 						{
 							System.out.println(board[1][0] + " wins!");
 							win = true;
 						} 
-						else if (board[2][0] == board[2][1] && board[2][0] == board[2][2] && !board[2][2].equals("")) 
+						else if (board[2][0].equals(board[2][1]) && board[2][0].equals(board[2][2]) && !board[2][2].equals("")) 
 						{
 							System.out.println(board[2][0] + " wins!");
 							win = true;
 						} 
-						else if (board[0][1] == board[1][1] && board[1][1] == board[2][1] && !board[2][1].equals("")) 
+						else if (board[0][1].equals(board[1][1]) && board[1][1].equals(board[2][1]) && !board[2][1].equals("")) 
 						{
 							System.out.println(board[0][1] + " wins!"); //CHANGED
 							win = true;
 						} 
-						else if (board[0][0] == board[0][1] && board[0][1] == board[0][2] && !board[0][2].equals("")) 
+						else if (board[0][0].equals(board[0][1]) && board[0][1].equals(board[0][2]) && !board[0][2].equals("")) 
 						{
 							System.out.println(board[0][0] + " wins!"); //CHECK
 							win = true;
 						} 
-						else if (board[0][2] == board[1][2] && board[1][2] == board[2][2] && !board[2][2].equals("")) 
+						else if (board[0][2].equals(board[1][2]) && board[1][2].equals(board[2][2]) && !board[2][2].equals("")) 
 						{
-							System.out.println(board[0][2] + " wins!"); //CHECK 
+							System.out.println(board[0][2] + " wins!"); //CHECK
 							win = true;
 						} 
-						else if (board[0][0] == board[1][1] && board[0][0] == board[2][2] && !board[2][2].equals("")) 
+						else if (board[0][0].equals(board[1][1]) && board[0][0].equals(board[2][2]) && !board[2][2].equals("")) 
 						{
 							System.out.println(board[2][2] + " wins!");
 							win = true;
 						} 
-						else if (board[0][2] == board[1][1] && board[0][2] == board[2][0] && !board[0][2].equals("")) 
+						else if (board[0][2].equals(board[1][1]) && board[0][2].equals(board[2][0]) && !board[0][2].equals("")) 
 						{
 							System.out.println(board[0][0] + " wins!");
 							win = true;
