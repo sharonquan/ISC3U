@@ -4,7 +4,11 @@ package quan;
  * Sharon Quan
  * 2016 05 17
  */
-public class Mississippi {
+public class Mississippi 
+{
+	/*
+	 * This method is used to print M 
+	 */
 	public static void printM()
 	{
 		System.out.println("M       M");
@@ -17,6 +21,9 @@ public class Mississippi {
 		System.out.println(); 
 
 	}
+	/*
+	 * This method is used to print I 
+	 */
 	public static void printI()
 	{
 		System.out.println("IIIII");
@@ -30,6 +37,9 @@ public class Mississippi {
 		System.out.println(); 
 
 	}
+	/*
+	 * This method is used to print S
+	 */
 	public static void printS()
 	{
 		System.out.println(" SSSSS");
@@ -42,6 +52,9 @@ public class Mississippi {
 		System.out.println(); 
 
 	}
+	/*
+	 * This method is used to print P
+	 */
 	public static void printP()
 	{
 		System.out.println("PPPPP");
@@ -55,6 +68,9 @@ public class Mississippi {
 		System.out.println(); 
 
 	}
+	/*
+	 * This is the header for the main method used to print out the word Mississippi
+	 */
 
 	public static void main(String[] args) 
 	{
