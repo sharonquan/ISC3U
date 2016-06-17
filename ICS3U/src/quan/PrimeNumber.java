@@ -1,6 +1,6 @@
 package quan;
 /*
- * Sharon Quan
+ * Sharon Quan 
  * 30/05/2016
  * PrimeNumber.java
  * This program allows the user to input a number and determine if it's prime or not 

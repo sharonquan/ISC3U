@@ -39,9 +39,6 @@ public class FunWithMath2
 		System.out.println("");
 		System.out.println(number1 + " - " + number2 + " = " + (decimal.format(number1-number2)));
 
-
-
-
 	}
 	/**
 	 * This method multiplies the two numbers 
